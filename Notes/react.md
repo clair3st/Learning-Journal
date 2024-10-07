@@ -77,3 +77,41 @@ Used to pass data between components. It's passed into a component, similar to h
 
 # What is the flow of props?
 React only allows the follow of data from parent component to child. This means child can't pass data back to parent, or edit the data received from parent.
+
+## Lifecycle
+*Resource:* [Medium](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
+
+![alt text][flowchart]
+
+[flowchart]: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*0saPKFiTUk6W3FYp "React Lifecycle Events"
+
+# Based off the diagram, what happens first, the ‘render’ or the ‘componentDidMount’?
+render.
+
+# What is the very first thing to happen in the lifecycle of React?
+The constructor object is called
+
+# Put the following things in the order that they happen: componentDidMount, render, constructor, componentWillUnmount, React Updates
+constructor > render > componentDidMount > React Updates > componentWillUnmount
+
+# What does componentDidMount do?
+Method called immediately after the component has mounted, this is useful for network requests or initialize the DOM
+
+
+## State vs Props
+*Resource:* [Video](https://www.youtube.com/watch?v=IYvD9oBCuJI)
+
+# What types of things can you pass in the props?
+Things you want to initialize your component to, or something to store in the component. 
+
+# What is the big difference between props and state?
+Props are like arguments to a function, you pass props to a component
+State is something inside a component, you change it within the component.
+Props you pass in and state is inside. So props is handled outside the component.
+
+# When do we re-render our application?
+When the props to a component changes
+
+# What are some examples of things that we could store in state?
+a counter. store something that you will be updating. If you want to design something that changes it should be state.
+
