@@ -1,6 +1,8 @@
 ### React 
 ## Overview
+*Resources:* 
 [Lecture](https://www.youtube.com/watch?v=FRjlF74_EZk)
+[Docs](https://react.dev/learn)
 
 # What is React?
 A js library. Agnostic user interface library. It's used to create interfaces (charts, bars, websites, applications)
@@ -23,7 +25,7 @@ State, this is what gets passes to children components
 
 
 ## Components
-[Component Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
+*Resource:* [Tutorialspoint](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
 
 # What is a component?
 A function or class. Contain all the required methods and properties to allow for an independent and modular part of the application. Different functions that control different components of the use interface
@@ -44,7 +46,6 @@ class Something extends React.Component {
 
 export default Something
 ```
-
 # What are the characteristics of a component?
 - Reusable
 - Replaceable
@@ -63,3 +64,16 @@ export default Something
 
 
 ## Props
+*Resource:* [Free Code Camp](https://www.freecodecamp.org/news/how-to-use-props-in-reactjs/)
+
+# What is “props” short for?
+Properties, like properties of an object
+
+# How are props used in React?
+Used to pass data between components. It's passed into a component, similar to how attributes are used in HTML.
+```
+<ComponentName property1="value" property2="value" property3="value" />
+```
+
+# What is the flow of props?
+React only allows the follow of data from parent component to child. This means child can't pass data back to parent, or edit the data received from parent.
