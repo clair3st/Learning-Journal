@@ -1,12 +1,10 @@
-## React
+### React 
+## Overview
 [Lecture](https://www.youtube.com/watch?v=FRjlF74_EZk)
 
 # What is React?
 A js library. Agnostic user interface library. It's used to create interfaces (charts, bars, websites, applications)
 ReactDom used for webpages. React library doesn't have to be used in web browser, always needs a companion library like ReactDom or React360, or for server. React isn't a framework (unlike angular, which is more robust), allows it to be tailored to many different scenarios.
-
-# What is a component?
-A function, broken up components. Different functions control different components of the use interface
 
 # What is the dataflow of React?
 Data flows down one way. Reduces breakpoints of applications with data. Flows 'down' through the app/document tree
@@ -22,3 +20,46 @@ one way, one of the first frameworks to introduce and becoming most common
 
 # Every component manages its own ____.
 State, this is what gets passes to children components
+
+
+## Components
+[Component Architecture](https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm)
+
+# What is a component?
+A function or class. Contain all the required methods and properties to allow for an independent and modular part of the application. Different functions that control different components of the use interface
+Basic structure:
+```
+import React from 'react';
+
+class Something extends React.Component {
+  render() {
+    return(
+       <section>
+         <h1>Header for Something</h1>
+         <p>Text that is all about Something.<p>
+       </section>
+    )
+  }
+}
+
+export default Something
+```
+
+# What are the characteristics of a component?
+- Reusable
+- Replaceable
+- Modualar
+- portable
+- extensible
+- encapsualted - keeps internal workings seperated
+- independent
+
+# What are the advantages of using component-based architecture?
+ - Faster and easier developement due to reusability of components.
+ - easier deployments as can sqap things out without impacting entire system
+ - Increased reliabilty by using componenets already in use.
+ - Reduced cost due to ease of using thrid party components
+ - independent - can be developed at the same time
+
+
+## Props
