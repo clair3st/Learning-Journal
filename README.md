@@ -3,4 +3,4 @@ Inspired by [Syknapse](https://github.com/Syknapse/My-Learning-Tracker) to creat
 
 | Status | Date| Resource |
 | ------------- | ------------- | ------------- |
-|   |  | [Css Diner](https://flukeout.github.io/) |
+| :ballot_box_with_check:  | Oct 2024 | [Css Diner](https://flukeout.github.io/) |
