@@ -115,3 +115,40 @@ When the props to a component changes
 # What are some examples of things that we could store in state?
 a counter. store something that you will be updating. If you want to design something that changes it should be state.
 
+
+## Passing functions as props
+*Resources:* 
+[Map & filter](https://react.dev/learn/rendering-lists)
+[Spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+# What does .map() return?
+An array of Jsx nodes
+
+# If I want to loop through an array and display each value in JSX, how do I do that in React?
+Use javascript, an example from the docs:
+```
+const people = [
+  'Creola Katherine Johnson: mathematician',
+  'Mario José Molina-Pasquel Henríquez: chemist',
+  'Mohammad Abdus Salam: physicist',
+  'Percy Lavon Julian: chemist',
+  'Subrahmanyan Chandrasekhar: astrophysicist'
+];
+
+export default function List() {
+  const listItems = people.map(person =>
+    <li>{person}</li>
+  );
+  return <ul>{listItems}</ul>;
+}
+```
+
+# Each list item needs a unique ____.
+key
+```
+<li key={person.id}>...</li>
+```
+
+# What is the purpose of a key?
+A unique identifier, can be string or number. It enables react to match each array item to a component, could be id in the data that you use as the key. This is useful for sorting or when removing or deleting.
+
