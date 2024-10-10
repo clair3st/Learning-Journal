@@ -164,3 +164,15 @@ through
 
 ##### How does the child component invoke a method that was passed to it from a parent component?
 As a callback
+
+## React and Forms
+*Resource:*[Reading](https://www.robinwieruch.de/react-form/)
+
+##### What is a ‘Controlled Component’?
+Controlling the component through state, from the initial value through to the user input etc.
+
+##### Should we wait to store the users responses from the form into state when they submit the form OR should we update the state with their responses as soon as they enter them? Why.
+As soon as they enter them. Allows the form to remember history, if it has to be reset. Also allows for validation before submit
+
+##### How do we target what the user is entering if we have an event handler on an input field?
+use the built in `onChange` to assign the event handler and use the `event.target.value` to get the user input

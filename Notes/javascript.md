@@ -58,3 +58,21 @@ const obj2 = { bar: "baz", y: 13 };
 
 const mergedObj = { ...obj1, ...obj2 };
 ```
+
+## Ternary operator
+
+*Resource:*[medium](https://codeburst.io/javascript-the-conditional-ternary-operator-explained-cac7218beeff)
+
+*Why would we use a ternary operator?*
+Shorten if statements to one line
+
+*Rewrite the following statement using a ternary statement:*
+```
+if(x===y){
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+console.log(x===y ? true : false)
+```
