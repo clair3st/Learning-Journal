@@ -81,26 +81,26 @@ console.log(x===y ? true : false)
 *Resource:*[Sitepoint](https://www.sitepoint.com/an-introduction-to-node-js/)
 
 *What is node.js?* 
-
+Built on Google Chrome's V8 JS Engine. It's a program we can use to execute JS on our computers, without then need for a browser. It's a javascript 'runtime'.
 
 *In your own words, what is Chrome’s V8 JavaScript Engine?* 
-
+A javascript compiler, converting JS to native machine code executible by a computer.
 
 *What does it mean that node is a JavaScript runtime?* 
-
+This is where a program will be executed, it determines global objects the program has access to and how it runs.
 
 *What is npm?* 
-
+A package manager. available for use with node
 
 *What version of node are you running on your machine?* 
-
+v22.9.0
 
 *What version of npm are you running on your machine?* 
-
+10.8.3
 
 *What command would you type to install a library/package called ‘jshint’?* 
-
+npm install jshint
 
 *What is node used for?* 
-
+It lets us run JS on the server. 
 
