@@ -30,3 +30,23 @@ An API that expose a large number of small resources, it creates a bigger load o
 
 *What status code does a successful DELETE request return?*
 204
+
+## Functional Programming
+*Resource:*[Medium](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)
+
+*What is functional programming?*
+Functional Programming is a programming paradigm, a style of builing structure and elements of a program. It avoids changing state and mutable data.
+
+*What is a pure function and how do we know if something is a pure function?*
+A function that returns the same result if given the same arguments. It does not cause any side effects
+For example a function that makes use of a global variable is not ture, the global variable can change, this will affect the output of the function.
+
+*What are the benefits of a pure function?*
+Makes testing easier
+
+*What is immutability?*
+The data's state can't be changed after its created. Instead you have to create a new copy
+
+*What is Referential transparency?*
+pure functions and immutable data create referential transperancy
+
