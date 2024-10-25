@@ -69,5 +69,29 @@ Those that require complex queries, datasets that aren't too large, and those th
 *What kind of data is a good fit a NoSQL database?*
 Big datasets, hieracrchical data
 
+## HTTP response codes
+*Resource:*  [Article](https://www.moesif.com/blog/technical/api-design/Which-HTTP-Status-Code-To-Use-For-Every-CRUD-App/)
 
+*In your own words, describe what each group of status code represents:*
+
+100’s = Informational Codes
+200’s = Success Codes
+300’s = Redirect Codes
+400’s = Client Error Codes
+500’s = Server Error Codes
+
+*What is a status code 202?*
+Accepted, tells the client the request was valid, returned before it's been processed
+
+*What is a status code 308?*
+Permenant redirect, the data doesn't exist at this endpoint anymore
+
+*What code would you use if an update didn’t return data to a client?*
+204 No Content, e.g. saving an edited doc
+
+*What code would you use if a resource used to exist but no longer does?*
+410 Gone, we know that it existed in the past
+
+*What is the ‘Forbidden’ status code?*
+403
 
