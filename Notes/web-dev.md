@@ -50,3 +50,24 @@ The data's state can't be changed after its created. Instead you have to create 
 *What is Referential transparency?*
 pure functions and immutable data create referential transperancy
 
+
+## No SQL vs SQL
+*Resource:* [SQL vs NoSQL](https://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/?utm_source=tuicool)
+
+*List 5 differences between SQL and noSQL databases*
+
+| SQL  | NoSQL |
+| ------------- | ------------- |
+| Relational Database  | Non-Relational Database |
+| Table Based  | Document based  |
+| Predefined Schema | Dynamic Schema  |
+| Vertically Scalable | Horizontally scalable |
+
+*What kind of data is a good fit for an SQL database?*
+Those that require complex queries, datasets that aren't too large, and those that aren't hierarchical
+
+*What kind of data is a good fit a NoSQL database?*
+Big datasets, hieracrchical data
+
+
+
